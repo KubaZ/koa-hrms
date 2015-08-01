@@ -1,0 +1,19 @@
+{
+  "name": "koa-hrms",
+  "version": "1.0.0",
+  "description": "HRMS system on built on koa framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ./ && mocha 'tests/integration/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^1.0.0",
+    "koa": "^0.21.0",
+    "mocha": "^2.2.5"
+  },
+  "devDependencies": {
+    "supertest": "^1.0.1"
+  }
+}
